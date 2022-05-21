@@ -1,6 +1,7 @@
 import React from 'react';
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import { darkTheme } from './theme';
+import { createGlobalStyle } from 'styled-components';
+import { ToDoList } from './ToDoList';
+
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inter:wght@200;300;400;500;600;700&family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;400&display=swap');
@@ -67,9 +68,8 @@ table {
 function App() {
   return (
     <>
-    <ThemeProvider theme={darkTheme}>
     <GlobalStyle/>
-    </ThemeProvider>
+    <ToDoList />
     </>
   );
 }
