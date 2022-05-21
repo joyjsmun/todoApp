@@ -1,7 +1,7 @@
 # TODO APP
 
-- [ ] React 
-- [ ] Typescript
+- [x] React 
+- [x] Typescript
 - [ ] Recoil
-- [ ] React Hook Form
-- [ ] Styled Components / ThemeProvider
+- [x]  React Hook Form
+- [x] Styled Components / ThemeProvider
